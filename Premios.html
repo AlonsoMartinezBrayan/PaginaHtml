@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Julian Assange</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      min-height: 100vh; /* Asegura que el cuerpo ocupe al menos toda la altura de la ventana */
+    }
+    #container {
+      width: 800px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column; /* Organiza los elementos en columna */
+    }
+    #header {
+      background-color: #000000;
+      padding: 10px 20px;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      align-items: center;
+      gap: 15px;
+    }
+    #header h1 {
+      margin: 0;
+      color: white;
+      font-size: 2.5em;
+    }
+    #header img {
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid white;
+    }
+    #main-content {
+      display: flex;
+      flex: 1; /* Ocupa todo el espacio vertical disponible */
+    }
+    #menu {
+      background-color: rgb(66, 54, 54);
+      width: 200px;
+      padding: 15px;
+      box-sizing: border-box;
+    }
+    #menu b {
+      font-size: 1.2em;
+      display: block;
+      margin-bottom: 10px;
+    }
+    #menu a {
+      text-decoration: none;
+      color: #ffffff;
+      display: block;
+      padding: 5px 0;
+      transition: color 0.3s;
+    }
+    #menu a:hover {
+      color: #2f00da;
+    }
+    #content {
+      background-color: #ffffff;
+      width: 600px;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    #content p {
+      margin: 0;
+      line-height: 1.6;
+    }
+    #content img {
+      max-width: 50%;
+      height: auto;
+      margin-top: 20px;
+      display: block;
+    }
+    #footer {
+      background-color: #000000;
+      text-align: center;
+      padding: 10px 0;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="header">
+      <img src="Julian.jpg" alt="Julian Assange">
+      <h1>Julian Assange</h1>
+    </div>
+    <div id="main-content">
+      <div id="menu">
+        <b>Menú</b>
+        <a href="index.html">Inicio</a><br>
+      <a href="Biografia.html">Biografia</a><br>
+      <a href=" Premios.html">Premios</a><br>
+      <a href="Filtracion.html">Filtracion</a><br>
+      <a href="Persecucion.html">Persecucion</a><br>
+      </div>
+      <div id="content">
+        <p>Julian Assange ha recibido varios reconocimientos por su labor en defensa de la transparencia y la libertad de prensa. Entre los más destacados están:</p>
+        <br>
+
+        <h4>• Premio Amnesty International UK Media (2009) por la exposición de violaciones de derechos humanos en Kenia.</h4>
+        
+        <img src="Julian6.jpg" alt="Julian Assange">
+
+        <h4>• Premio Sam Adams (2010) otorgado por exagentes de inteligencia en reconocimiento a su integridad.</h4>
+        
+        <img src="Julian9.jpg" alt="Julian Assange">
+
+        <h4>• Premio de la Fundación Walkley (2011) por servicio destacado al periodismo.</h4>
+        
+        <img src="Julian10.jpg" alt="Julian Assange">
+
+        <h4>• Ha sido nominado en varias ocasiones al Premio Nobel de la Paz por su contribución a la libertad de información.</h4>
+        
+        <img src="Julian11.jpg" alt="Julian Assange">
+        <br>
+        <p>Estos premios muestran el impacto global de su trabajo, aunque sigue siendo una figura polémica por las consecuencias legales y políticas de sus publicaciones.</p>
+        <br>
+      </div>
+    </div>
+    <div id="footer">
+      Copyright © W3Schools.com 
+    </div>
+  </div>
+</body>
+</html>
